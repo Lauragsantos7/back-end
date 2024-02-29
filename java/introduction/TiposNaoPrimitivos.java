@@ -1,5 +1,5 @@
 public class TiposNaoPrimitivos {
-    /*também conhecidos como tipos de referência, são utilizados para representar
+    /* também conhecidos como tipos de referência, são utilizados para representar
      objetos, arrays e até mesmo outras classes! Eles não são apenas contêineres
       simples de valores; eles são entidades complexas com seus próprios métodos
        e propriedades. Com os tipos não primitivos, você pode criar objetos
@@ -13,7 +13,7 @@ public class TiposNaoPrimitivos {
 }
 
 
-public class ContaBancaria {
+class ContaBancaria {
     double saldo;
     // construtor:
     public ContaBancaria() {
@@ -38,8 +38,7 @@ public class ContaBancaria {
 }
 
 
-// Instanciando um objeto:
-public class Banco {
+// Instanciando um objeclass Banco {
     public static void main(String[] args) {
         ContaBancaria conta = new ContaBancaria();
     }
